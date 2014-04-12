@@ -21,6 +21,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
   /* transition */
   transition: height ease-in 0.18s;
+  z-index: 1;
 }
 
 :host(.core-dark-theme) {
