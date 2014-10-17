@@ -93,6 +93,12 @@ polyfill-next-selector { content: '.toolbar-tools > *'; }
   pointer-events: auto;
 }
 
+/* When elements are disabled, disable the pointer-events. */
+polyfill-next-selector { content: '.toolbar-tools > *'; }
+::content > *[disabled] {
+  pointer-events: none;
+}
+
 /* elements spacing */
 polyfill-next-selector { content: '.toolbar-tools > *'; }
 ::content > * {
