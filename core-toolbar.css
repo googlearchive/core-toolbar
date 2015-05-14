@@ -36,7 +36,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 .toolbar-tools {
   position: relative;
-  height: 64px;
+  height: inherit;
   padding: 0 8px;
   pointer-events: none;
 }
